@@ -5,7 +5,7 @@ import Image from "next/image"
 import headshot from "@/public/headshot.jpg"
 import {motion} from "framer-motion"
 import Link from 'next/link';
-import { BsArrowRight, BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
 
@@ -51,16 +51,16 @@ export default function Intro() {
         initial={{opacity:0, y:100}}
         animate={{opacity:1, y:0}}
         >
-            <span className='font-bold'>Hi, I'm Mahdeen! </span>
-            I'm an early career  
+            <span className='font-bold'>Hi, I&apos;m Mahdeen! </span>
+            I&apos;m an early career  
             <span className='font-bold'> full-stack developer </span>
             with
             <span className='font-bold'> 2 years total </span>
             of experience. I enjoy building
             <span className='italic'> apps, games, APIs, AI </span>
-            <span> and anything in between. I'm highly profecient with </span>
+            <span> and anything in between. I&apos;m highly proficient with </span>
             <span className='underline'>Java</span>
-            <span>. I'm always looking for my next learning oppurtunity!</span>
+            <span>. I&apos;m always looking for my next learning opportunity!</span>
 
         </motion.p>
 
