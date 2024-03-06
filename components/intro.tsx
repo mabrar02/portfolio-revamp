@@ -46,7 +46,7 @@ export default function Intro() {
             </div>
         </div>
 
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl'
         
         initial={{opacity:0, y:100}}
         animate={{opacity:1, y:0}}
@@ -62,7 +62,7 @@ export default function Intro() {
             <span className='underline'>Java</span>
             <span>. I&apos;m always looking for my next learning opportunity!</span>
 
-        </motion.p>
+        </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         
