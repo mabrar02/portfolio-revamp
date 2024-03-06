@@ -113,31 +113,29 @@ export const projectsData = [
   {
     title: "PutMeOn",
     description:
-      "PutMeOn is a full stack mobile application that allows friends to share music in an anonymous way. I created it for me and my friends \
-      because we love to disocver and share new music!",
+      "PutMeOn is a full stack mobile app that allows users to share music in an anonymous way. I developed it to share music with my friends!",
     tags: ["React Native", "JavaScript", "SpotifyAPI", "Firebase", "Expo"],
     imageUrl: placeholderImg,
   },
   {
     title: "Flight Visualization",
     description:
-      "This was my final project for my Graphics course. It features a Cessna plane flying around a customizable, scenic environment with programatically generated mountains \
-      and custom texture mapping for the surroundings!",
+      "This was my final project for my Graphics course. It features a Cessna plane flying around a customizable, scenic environment!",
     tags: ["C", "OpenGL", "FreeGlut"],
     imageUrl: placeholderImg,
   },
   {
     title: "MalSalvo's Last Stand",
     description:
-      "MalSalvo's Last Stand is an FPS, tower-defense game where you play as a mad scientist whose only goal is to take over the univerise and all alien planets! \
-      I lead the development of MLS and had the help of 4 other developers as part of a project for my Game Development course.",
+      "MLS is an FPS, tower-defense game where a mad scientist tries to take over the universe! \
+      I led the development of MLS as a project for my game development course.",
     tags: ["Unity", "C#", "Blender", "Git"],
     imageUrl: placeholderImg,
   },
   {
     title: "Hitmans Revenge",
     description:
-      "This is a 2D platformer game about a hitman who is on a mission to avenge his dead cat. This game served as an introductory to learning Unity and was developed by \
+      "This is a 2D platformer game about a hitman who is on a mission to avenge his dead cat. This taught me Unity and was developed by \
       me and a couple friends!",
     tags: ["Unity", "C#", "Git",],
     imageUrl: placeholderImg,
