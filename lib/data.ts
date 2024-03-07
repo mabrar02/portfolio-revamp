@@ -5,10 +5,11 @@ import { RiSeedlingLine } from "react-icons/ri";
 import { GoPeople } from "react-icons/go";
 import { FiBookOpen } from "react-icons/fi";
 
-import pmoImg from "@/public/pmo.jpg";
-import mlsImg from "@/public/mls.jpg";
-import flightImg from "@/public/flight.jpg";
-import hitmanImg from "@/public/hitman.jpg";
+import placeholderImg from "@/public/placeholder.png";
+import pmoImg from "@/public/pmo.png";
+import mlsImg from "@/public/mls.png";
+import flightImg from "@/public/flight.png";
+import hitmanImg from "@/public/hitman.png";
 
 export const links = [
   {
