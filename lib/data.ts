@@ -152,6 +152,12 @@ export const skillsData = [
     "MongoDB",
     "C#",
     "Kotlin",
+    "Git",
+    "JUnit",
+    "SpaCy",
+    "Espresso",
+    "Android Studio",
+    "Expo",
     "HTML",
     "CSS",
     "Python",
@@ -165,5 +171,6 @@ export const skillsData = [
     "OpenGL",
     "Unity Engine",
     "Firebase",
-    "Docker"
+    "Docker",
+
 ] as const;
