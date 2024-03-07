@@ -36,13 +36,13 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Student at Dalhousie",
+    title: "Computer Science Student",
     company: "Dalhousie University",
     location: "Halifax, Nova Scotia",
     description:
       "I started my computer science journey as a student at Dalhousie University! \
       Here, I learned the fundamentals of programming with Java through courses such as Data Structures and Algorithms, \
-      Computer Networking, Distributed Systems, and Operating Systems. My personal favourite course was Game Development 🎮",
+      Computer Networking, Distributed Systems, and Operating Systems.",
     icon: React.createElement(LuGraduationCap),
     date: "Sep. 2020 - May. 2024 (Expected)",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
     location: "Halifax, Nova Scotia",
     description:
       "This was my first programming job, where I taught kids how to code through building games! I reinforced my own understanding of programming \
-      fundmanetals by teaching bright, young kids concepts like variables, control flow, and OOP. Games were made with JavaScript, Roblox Studio, and Unity.",
+      fundmanetals by teaching children JavaScript, Roblox Studio, and Unity.",
     icon: React.createElement(LuGamepad2),
     date: "Aug. 2021 - Aug. 2022",
   },
@@ -83,7 +83,7 @@ export const experiencesData = [
     location: "Halifax, Nova Scotia",
     description:
       "Now that I had the ball rolling, I didn't want to stop. I decided to take on a teaching assistant role. I enjoyed the teaching aspect of Code Ninjas so I figured I would \
-      become a TA for a course I loved! This lead me to a teaching assistantship in Data Structures and Algorithms with my favourite prof, Dr. Sampalli, or as we know him, Srini!",
+      become a TA for a course I loved! This lead me to a teaching assistantship in Data Structures and Algorithms.",
     icon: React.createElement(FiBookOpen),
     date: "Sep. 2023 - Dec. 2023",
   },
@@ -93,7 +93,7 @@ export const experiencesData = [
     location: "Halifax, Nova Scotia",
     description:
       "Eager to get deeper in software development, I sought out a local startup, leading me to Koii Network. Here, I work with a tight knit group of dedicated individuals \
-      who show me the power of passion in software development. I've been learning a lot about the MERN stack, Web3, and Crypto and I'm excited to continue my journey!",
+      who show me the power of passion in software development. I've been learning a lot about the MERN stack, Web3, and Crypto!",
     icon: React.createElement(LuBriefcase),
     date: "Feb. 2024 - Current",
   },
