@@ -89,19 +89,19 @@ export default function Intro() {
 
             <a className='group bg-white px-7 py-3 flex \
             outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10  cursor-pointer \
-            items-center gap-2 rounded-full' href='/Mahdeen_Abrar_Resume.pdf' download={true}>
+            items-center gap-2 rounded-full dark:bg-white/10' href='/Mahdeen_Abrar_Resume.pdf' download={true}>
                 My Resume <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
             </a>
 
             <a className='bg-white p-4 text-gray-700 \
             outline-none focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition border border-black/10  cursor-pointer \
-             flex items-center gap-2 rounded-full' href='https://www.linkedin.com/in/mahdeen-abrar-982ab2231/' target='_blank'>
+             flex items-center gap-2 rounded-full dark:bg-white/10 dark:text-white/60' href='https://www.linkedin.com/in/mahdeen-abrar-982ab2231/' target='_blank'>
                 <BsLinkedin/>
             </a>
 
             <a className='bg-white p-4 text-gray-700 flex \
             outline-none focus:scale-[1.15] hover:text-gray-950 hover:scale-[1.15] active:scale-105 transition border border-black/10  cursor-pointer \
-            items-center text-[1.35rem] gap-2 rounded-full' href='https://github.com/mabrar02' target='_blank'>
+            items-center text-[1.35rem] gap-2 rounded-full dark:bg-white/10 dark:text-white/60' href='https://github.com/mabrar02' target='_blank'>
                 <FaGithubSquare/>
             </a>
 
