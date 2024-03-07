@@ -53,7 +53,7 @@ const ExperienceElement = ({item }: ExperienceElementProps) => {
 }
 
 export default function Experience() {
-    const { ref } = useSectionInView('Experience')
+    const { ref } = useSectionInView('Experience', 0.25)
     return (
         <section
             ref={ref}
