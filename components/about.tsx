@@ -25,7 +25,7 @@ export default function About() {
             I&apos;m the 
             <span className='font-bold'> second highest ranking </span> student in my year and I&apos;ve been fortunate enough to be awarded a 
             <span className='italic'> number of scholarships </span> including
-            the Bruce and Dorothy Rossetti Silver award, the Alient Ambassadors scholarship, and Sexton Scholar award. I&apos;m 
+            the Bruce and Dorothy Rossetti Silver award, the Aliant Ambassadors scholarship, and multiple Sexton Scholar awards. I&apos;m 
             <span className='font-bold'> passionate about learning </span>
             and I&apos;m looking for ways to grow every day. I love
             <span className='italic'>  technology as a whole, </span> and it&apos;s led me to experiment with mobile dev, game dev, machine 

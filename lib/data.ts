@@ -6,6 +6,10 @@ import { GoPeople } from "react-icons/go";
 import { FiBookOpen } from "react-icons/fi";
 
 import placeholderImg from "@/public/placeholder.png";
+import pmoImg from "@/public/pmo.jpg";
+import mlsImg from "@/public/mls.jpg";
+import flightImg from "@/public/flight.jpg";
+import hitmanImg from "@/public/hitman.jpg";
 
 export const links = [
   {
@@ -71,9 +75,9 @@ export const experiencesData = [
     company: "Avanade",
     location: "Halifax, Nova Scotia",
     description:
-      "Avanade was my second internship and allowed me to connect with a vast amount of diverse individuals. There wasn't a single day where I didn't meet someone new! \
+      "Avanade was my second internship and allowed me to connect with a vast amount of diverse people. There wasn't a single day where I didn't meet someone new! \
       Here, I saw the power in numbers and developed my professional communication abilities. \
-      I was able to collaborate a client and lead my team of interns in an effective manner!",
+      I was able to collaborate with a client and lead my team of interns in an effective manner!",
     icon: React.createElement(GoPeople),
     date: "May. 2023 - Aug. 2023",
   },
@@ -82,7 +86,7 @@ export const experiencesData = [
     company: "Dalhousie University",
     location: "Halifax, Nova Scotia",
     description:
-      "Now that I had the ball rolling, I didn't want to stop. I decided to take on a teaching assistant role. I enjoyed the teaching aspect of Code Ninjas so I figured I would \
+      "To continue gaining experience, I decided to take on a teaching assistant role. I enjoyed the teaching aspect of Code Ninjas so I figured I would \
       become a TA for a course I loved! This lead me to a teaching assistantship in Data Structures and Algorithms.",
     icon: React.createElement(FiBookOpen),
     date: "Sep. 2023 - Dec. 2023",
@@ -102,8 +106,8 @@ export const experiencesData = [
     company: "DataSwap",
     location: "Halifax, Nova Scotia",
     description:
-      "On the side, I've been working to develop another promising startup called DataSwap! I'm learning what it takes to start a business, how to operate a software company, \
-      and how to fully flesh out an idea. I'm always looking to learn and this is yet another great learning oppurtunity for me!",
+      "On the side, I've been working to develop a promising startup called DataSwap! I'm learning what it takes to start a business, how to operate a software company, \
+      and how to fully flesh out an idea. I'm always looking to learn and this is yet another great learning opportunity for me!",
     icon: React.createElement(LuFastForward),
     date: "Mar. 2024 - Current",
   },
@@ -115,14 +119,9 @@ export const projectsData = [
     description:
       "PutMeOn is a full stack mobile app that allows users to share music in an anonymous way. I developed it to share music with my friends!",
     tags: ["React Native", "JavaScript", "SpotifyAPI", "Firebase", "Expo"],
-    imageUrl: placeholderImg,
-  },
-  {
-    title: "Flight Visualization",
-    description:
-      "This was my final project for my Graphics course. It features a Cessna plane flying around a customizable, scenic environment!",
-    tags: ["C", "OpenGL", "FreeGlut"],
-    imageUrl: placeholderImg,
+    imageUrl: pmoImg,
+    codeUrl: "https://github.com/mabrar02/PutMeOn",
+    demoUrl: "https://www.youtube.com/watch?v=XuTZPBHkBVc",
   },
   {
     title: "MalSalvo's Last Stand",
@@ -130,7 +129,18 @@ export const projectsData = [
       "MLS is an FPS, tower-defense game where a mad scientist tries to take over the universe! \
       I led the development of MLS as a project for my game development course.",
     tags: ["Unity", "C#", "Blender", "Git"],
-    imageUrl: placeholderImg,
+    imageUrl: mlsImg,
+    codeUrl: "https://github.com/mabrar02/MalSalvosLastStand",
+    demoUrl: "https://mabrar02.itch.io/malsalvos-last-stand",
+  },
+  {
+    title: "Flight Visualization",
+    description:
+      "This was my final project for my Graphics course. It features a Cessna plane flying around a customizable, scenic environment!",
+    tags: ["C", "OpenGL", "FreeGlut"],
+    imageUrl: flightImg,
+    codeUrl: "https://github.com/mabrar02/OpenGL-FlightViewer-Visualization",
+    demoUrl: "https://github.com/mabrar02/OpenGL-FlightViewer-Visualization",
   },
   {
     title: "Hitmans Revenge",
@@ -138,7 +148,9 @@ export const projectsData = [
       "This is a 2D platformer game about a hitman who is on a mission to avenge his dead cat. This taught me Unity and was developed by \
       me and a couple friends!",
     tags: ["Unity", "C#", "Git",],
-    imageUrl: placeholderImg,
+    imageUrl: hitmanImg,
+    codeUrl: "https://github.com/mabrar02/HitmansRevengeGame",
+    demoUrl: "https://gego144.itch.io/a-hitmans-mission-to-avenge-his-cat",
   },
 ] as const;
 

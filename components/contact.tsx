@@ -28,7 +28,7 @@ export default function Contact() {
     
     >
         <SectionHeading>Contact me</SectionHeading>
-        <p className='text-gray-700 -mt-5 dark:text-white/80'>Lets work together! Reach me at <a className='underline' href='mailto:mahdeen02@gmail.com' target='_blank'>mahdeen02@gmail.com </a> or fill out the form below.</p>
+        <p className='text-gray-700 -mt-5 dark:text-white/80'>Lets work together! Reach me at <a className='underline' href='mailto:mahdeen02@gmail.com' target='_blank'>mahdeen02@gmail.com</a> or fill out the form.</p>
 
         <form className='mt-10 flex flex-col dark:text-black' method='POST' action="https://getform.io/f/paqxxorb">
             <input name='userEmail' placeholder='Your email' className="h-14 px-4 rounded-lg border border-black/10 \
