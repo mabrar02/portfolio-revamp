@@ -102,12 +102,12 @@ export const experiencesData = [
     date: "Feb. 2024 - Current",
   },
   {
-    title: "Chief Technology Officer",
-    company: "DataSwap",
+    title: "Co-founder & CTO",
+    company: "P1nkfly",
     location: "Halifax, Nova Scotia",
     description:
-      "On the side, I've been working to develop a promising startup called DataSwap! I'm learning what it takes to start a business, how to operate a software company, \
-      and how to fully flesh out an idea. I'm always looking to learn and this is yet another great learning opportunity for me!",
+      "Lately, I've been working to develop a promising startup called P1nkfly! I'm learning what it takes to start a business, how to operate a software company, \
+      and how to fully flesh out an idea. I'm always looking to make an impact with my work, so hopefully P1nkfly allows me to do that!",
     icon: React.createElement(LuFastForward),
     date: "Mar. 2024 - Current",
   },
