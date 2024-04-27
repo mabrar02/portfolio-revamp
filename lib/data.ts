@@ -1,6 +1,11 @@
 import React from "react";
 
-import { LuBriefcase, LuFastForward, LuGamepad2, LuGraduationCap } from "react-icons/lu";
+import {
+  LuBriefcase,
+  LuFastForward,
+  LuGamepad2,
+  LuGraduationCap,
+} from "react-icons/lu";
 import { RiSeedlingLine } from "react-icons/ri";
 import { GoPeople } from "react-icons/go";
 import { FiBookOpen } from "react-icons/fi";
@@ -101,16 +106,16 @@ export const experiencesData = [
     icon: React.createElement(LuBriefcase),
     date: "Feb. 2024 - Current",
   },
-  {
-    title: "Co-founder & CTO",
-    company: "P1nkfly",
-    location: "Halifax, Nova Scotia",
-    description:
-      "Lately, I've been working to develop a promising startup called P1nkfly! I'm learning what it takes to start a business, how to operate a software company, \
-      and how to fully flesh out an idea. I'm always looking to make an impact with my work, so hopefully P1nkfly allows me to do that!",
-    icon: React.createElement(LuFastForward),
-    date: "Mar. 2024 - Current",
-  },
+  // {
+  //   title: "Co-founder & CTO",
+  //   company: "P1nkfly",
+  //   location: "Halifax, Nova Scotia",
+  //   description:
+  //     "Lately, I've been working to develop a promising startup called P1nkfly! I'm learning what it takes to start a business, how to operate a software company, \
+  //     and how to fully flesh out an idea. I'm always looking to make an impact with my work, so hopefully P1nkfly allows me to do that!",
+  //   icon: React.createElement(LuFastForward),
+  //   date: "Mar. 2024 - Current",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -147,7 +152,7 @@ export const projectsData = [
     description:
       "This is a 2D platformer game about a hitman who is on a mission to avenge his dead cat. This taught me Unity and was developed by \
       me and a couple friends!",
-    tags: ["Unity", "C#", "Git",],
+    tags: ["Unity", "C#", "Git"],
     imageUrl: hitmanImg,
     codeUrl: "https://github.com/mabrar02/HitmansRevengeGame",
     demoUrl: "https://gego144.itch.io/a-hitmans-mission-to-avenge-his-cat",
@@ -155,34 +160,33 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    "Java",
-    "JavaScript",
-    "React",
-    "React Native",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "C#",
-    "Kotlin",
-    "Git",
-    "JUnit",
-    "SpaCy",
-    "Espresso",
-    "Android Studio",
-    "Expo",
-    "HTML",
-    "CSS",
-    "Python",
-    "Ruby",
-    "C",
-    "SQL",
-    "TypeScript",
-    "Spring Boot",
-    "Rails",
-    "Terraform",
-    "OpenGL",
-    "Unity Engine",
-    "Firebase",
-    "Docker",
-
+  "Java",
+  "JavaScript",
+  "React",
+  "React Native",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "C#",
+  "Kotlin",
+  "Git",
+  "JUnit",
+  "SpaCy",
+  "Espresso",
+  "Android Studio",
+  "Expo",
+  "HTML",
+  "CSS",
+  "Python",
+  "Ruby",
+  "C",
+  "SQL",
+  "TypeScript",
+  "Spring Boot",
+  "Rails",
+  "Terraform",
+  "OpenGL",
+  "Unity Engine",
+  "Firebase",
+  "Docker",
 ] as const;
