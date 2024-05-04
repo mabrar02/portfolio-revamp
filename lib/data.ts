@@ -15,7 +15,7 @@ import pmoImg from "@/public/pmo.png";
 import mlsImg from "@/public/mls.png";
 import flightImg from "@/public/flight.png";
 import hitmanImg from "@/public/hitman.png";
-import traitorImg from "@/public/traitor.JPG";
+import traitorImg from "@/public/traitor.png";
 
 export const links = [
   {
