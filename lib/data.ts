@@ -15,6 +15,7 @@ import pmoImg from "@/public/pmo.png";
 import mlsImg from "@/public/mls.png";
 import flightImg from "@/public/flight.png";
 import hitmanImg from "@/public/hitman.png";
+import traitorImg from "@/public/traitor.JPG";
 
 export const links = [
   {
@@ -119,6 +120,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "TR.AI.TOR",
+    description:
+      "TR.AI.TOR is an imposter style party game that leverages Gemini AI! I developed it as part of Google's AI Hackathon",
+    tags: ["React", "JavaScript", "Socket.io", "Node", "Express", "Gemini"],
+    imageUrl: traitorImg,
+    codeUrl: "https://github.com/mabrar02/tr.AI.tor",
+    demoUrl: "https://traitorgame.vercel.app",
+  },
   {
     title: "PutMeOn",
     description:
